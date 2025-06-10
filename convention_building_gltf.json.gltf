@@ -1,0 +1,339 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Claude AI",
+    "copyright": "2025"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Convention Building Scene",
+      "nodes": [0, 1, 2, 3, 4]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Main Building",
+      "mesh": 0,
+      "translation": [0, 0, 0]
+    },
+    {
+      "name": "Entrance Canopy",
+      "mesh": 1,
+      "translation": [0, 8, 12]
+    },
+    {
+      "name": "Left Wing",
+      "mesh": 2,
+      "translation": [-25, 0, 0]
+    },
+    {
+      "name": "Right Wing",
+      "mesh": 2,
+      "translation": [25, 0, 0]
+    },
+    {
+      "name": "Roof Structure",
+      "mesh": 3,
+      "translation": [0, 15, 0]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Main Building Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Entrance Canopy Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Wing Building Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Roof Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [20, 15, 10],
+      "min": [-20, 0, -10]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [15, 2, 2],
+      "min": [-15, 0, -2]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 12,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [12, 12, 8],
+      "min": [-12, 0, -8]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [45, 2, 15],
+      "min": [-45, 0, -15]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 12,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 768,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 840,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 936,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1032,
+      "byteLength": 64,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1096,
+      "byteLength": 24,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1120,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1408,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1696,
+      "byteLength": 192,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1888,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1960,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2056,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2152,
+      "byteLength": 64,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2216,
+      "byteLength": 24,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2240,
+      "uri": "data:application/octet-stream;base64,AAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAEAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAPABAAEQASABMAFAAVABYAFwAAAAC/AAAAwAAAAMAAAAC/AAAAwAAAAMAAAAC/AAAAwAAAAMAAAAC/AAAAwAAAAAAAAAAAAAAAAAAAaGAAAAAAAABoYAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAEAAgADAAQABQAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAwAAAAEAAAADAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAEAAgADAAQABQAGAAcACAAJAAoACwAMAA0ADgAPABAAEQASABMAFAAVABYAFwAAAADFAAAAcAAAAHAAAADFAAAAcAAAAHAAAADFAAAAcAAAAHAAAADFAAAAcAAAAAAAAAAAAAAAAAAAaGAAAAAAAABoYAAAAAAAAAAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAACA/wAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAAAAAAAAACAPwAAAD8AAIA/AAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAAAAAAIA/AAAAPwAAgD8AAAAAAAAAQAAAgD8AAAA/AACAPwAAAAEAAgADAAQABQA="
+    }
+  ],
+  "materials": [
+    {
+      "name": "Building Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.8, 0.8, 0.9, 1.0],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.8
+      },
+      "doubleSided": false
+    },
+    {
+      "name": "Glass Canopy",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.7, 0.9, 1.0, 0.6],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.1
+      },
+      "alphaMode": "BLEND",
+      "doubleSided": true
+    },
+    {
+      "name": "Roof Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0.4, 0.4, 0.5, 1.0],
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.7
+      },
+      "doubleSided": false
+    }
+  ]
+}
